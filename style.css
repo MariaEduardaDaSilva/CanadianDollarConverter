@@ -1,0 +1,75 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    min-height: 400px;
+    background-image: url('./canada-flag.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    display: grid;
+  }
+
+
+  
+  .container {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 96.3vh;
+    width: 98.3vw;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 2px;
+    position: relative;
+    z-index: 1;
+    background: inherit;
+
+  }
+  .container:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(2px);
+    margin: -20px;
+  }
+
+  .btn {
+    font-family: 'Rubik', sans-serif;
+    border: none;
+    font-size: 18px;
+    padding: 10px;
+    color: #fff;
+    background-color: rgb(212, 14, 14); 
+    margin-top: 10px;
+    border-radius: 3px;  
+  }
+
+  .btn:hover {
+      color:  rgb(212, 14, 14);
+      background-color: white;
+      transition-duration: 1s
+  }
+
+  .input {
+      border: none;
+      border-radius: 5px;
+      width: 300px;
+      padding: 20px;
+      font-size: 16px;
+  }
+  
+  .page-title {
+    color: rgb(212, 14, 14);
+    font-weight: 800;
+    margin-top: 30px;
+    font-size: 48px;
+    text-shadow:rgb(17, 16, 16) 0.1em 0.1em 0.3em;
+    
+  }
+  
+
